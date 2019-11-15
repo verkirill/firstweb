@@ -20,7 +20,7 @@ public class secondTest extends BaseTest {
     public void Test2() {
         gotoMail("home-link");
         enterLogin(searchLogin(), "verkirill");
-        enterPassword(searchPassword(),"пароль!");
+        enterPassword(searchPassword(),"пароль");
         searchMails();
     }
 
