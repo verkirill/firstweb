@@ -16,7 +16,7 @@ public class SecondTest extends BaseTest {
     public void Test2() {
         app.gotoMail("home-link", this);
         app.enterLogin(app.searchLogin(this), "verkirill");
-        app.enterPassword(app.searchPassword(this),"ByntuhfK123");
+        app.enterPassword(app.searchPassword(this),"пароль");
         app.searchMails(this);
     }
 
